@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flight_counter"
+version="1.0.0"
+dependencies = ["rich", "jsonargparse"]
+
+[project.scripts]
+count="flight_counter.counter:count"

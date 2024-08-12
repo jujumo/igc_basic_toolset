@@ -1,0 +1,19 @@
+= flight_counter
+
+simple script to count flights hours from IGC files.
+
+== install
+
+[source,bash]
+----
+$> cd flight_counter
+$> python -m pip install .
+----
+
+== usage
+
+[source,bash]
+----
+$> counter --wing_name photon path/to/igcs
+Total:  62.7 hours
+----
